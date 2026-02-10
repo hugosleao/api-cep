@@ -71,4 +71,5 @@ spec:
   owner: user:default/guest
   system: api-cep
   definition:
-    $text: ./openapi.yaml
+    text: |
+      $openapi: ./openapi.yaml
