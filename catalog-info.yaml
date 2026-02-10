@@ -69,6 +69,5 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: user:default/guest
-  definition:
-    text: |
-      $openapi: ./openapi.yaml
+  definition: |
+    $openapi: ./openapi.yaml
