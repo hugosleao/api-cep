@@ -29,5 +29,3 @@ spec:
   type: service
   lifecycle: experimental
   owner: group:default/team-cep
-  providesApis:
-    - api-cep
