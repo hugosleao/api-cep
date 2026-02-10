@@ -14,6 +14,7 @@ metadata:
 
   annotations:
     github.com/project-slug: hugosleao/api-cep
+    backstage.io/techdocs-ref: dir:.
 
   links:
     - url: https://github.com/hugosleao/api-cep

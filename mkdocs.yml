@@ -1,0 +1,8 @@
+site_name: 'API CEP'
+site_description: 'Documentação técnica da API de consulta de CEP'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
