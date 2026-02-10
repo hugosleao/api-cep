@@ -69,7 +69,6 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: user:default/guest
-  system: api-cep
   definition:
     text: |
       $openapi: ./openapi.yaml
