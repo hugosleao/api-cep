@@ -29,6 +29,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: group:default/team-cep
+  system: cep-platform
   dependsOn:
     - resource:default/viacep-api
 
@@ -52,8 +53,22 @@ metadata:
 spec:
   type: external-api
   owner: group:default/team-cep
+  system: cep-platform
   dependencyOf:
     - component:default/api-cep
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: cep-platform
+  description: Plataforma de consulta de CEP
+  tags:
+    - platform
+    - api
+    - location
+spec:
+  owner: group:default/team-cep
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -69,5 +84,6 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: user:default/guest
+  system: cep-platform
   definition: |
     $openapi: ./openapi.yaml
